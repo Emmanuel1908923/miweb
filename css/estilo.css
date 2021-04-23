@@ -1,0 +1,93 @@
+div.contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border: solid;
+}
+
+div.header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    background: aqua;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-column: 1/3;
+}
+
+div.animal{
+    width: 100%;
+    display: grid;
+    grid-column: 1/2;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+div.animal2{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: lightgray;
+    
+}
+
+div.animal3{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+div.animal4{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    
+}
+
+img.lobo{
+    width: 60%;
+    margin-left: 23%;
+}
+
+img.guepardo{
+    width: 30%;
+    margin-left: 36%;
+}
+
+img.tigre{
+    width: 31%;
+    margin-left: 37%; 
+}
+
+#boton{
+    width: 60%;
+    margin-left: 23%;
+}
+
+#boton2{
+    width: 30%;
+    margin-left: 37%;
+}
+
+#boton3{
+    width: 30%;
+    margin-left: 36%; 
+}
